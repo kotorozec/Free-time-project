@@ -81,7 +81,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 143px;
-	background: url(/img/wave.png);
+	background: url(../img/wave.png);
 	animation: animate 10s linear infinite;
 }
 
@@ -92,7 +92,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 143px;
-	background: url(/img/wave.png);
+	background: url(../img/wave.png);
 	opacity: 0.4;
 	animation: animate-reverse 10s linear infinite;
 }
