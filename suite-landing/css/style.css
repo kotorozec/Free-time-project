@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--deepBlue: #172339;
+	--deepGray: #49566D;
+	--beige: #F3EDE7;
+	--almostWhite: #FAF8F6;
+	--purple: #A060FF;
+	--pink: #CB30E3;
+	--orange: #FFA84E;
+}
+
+body {
+	font-family: 'Epilogue', sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+	letter-spacing: 0;
+	background-color: var(--almostWhite);
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	font-size: 72px;
+	line-height: 72px;
+	letter-spacing: -1px;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 48px;
+	line-height: 56px;
+	letter-spacing: -0.5px;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 32px;
+	letter-spacing: -0.2px;
+}
+
+h4 {
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: -2.5px;
+}
+
+.quote {
+	font-size: 20px;
+	line-height: 35px;
+	letter-spacing: 0;
+}
+
+footer {
+	font-size: 15px;
+	line-height: 32px;
+}
