@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Bungee Inline', cursive;
+}
+
+.container {
+	max-width: 800px;
+	width:100%;
+	margin: 0 auto;
+}
+header {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 700px;
+	width: 100%;
+	background:darkorange url("../images/concert.jpg") no-repeat center/cover;
+
+}
+
+h1 {
+font-weight:400;
+	font-size:50px;
+	color:#fff;
+}
+h3 {
+	padding: 100px 0;
+	font-weight: 400;
+	font-size:22px;
+	line-height: 26px;
+}
+
+.intro-section {
+	width: 100%;
+	background-color: #fff;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	width: 100%;
+	min-height:200px;
+	background-color: #000;
+}
+
+.flex-position {
+	display: flex;
+	justify-content: flex-end;
+	height: 100%;
+}
+
+.flex-position__paragraph {
+	font-weight: 400;
+	font-size: 20px;
+	color:#fff;
+}
